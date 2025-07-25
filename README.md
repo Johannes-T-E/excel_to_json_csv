@@ -6,21 +6,38 @@ This project provides a simple script to export all sheets of an Excel (.xlsx) f
 
 ## Step 1: Clone or Download the Project
 
-Download or clone this repository to your local machine.
+Download or clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Johannes-T-E/excel_to_json_csv.git
+```
+
+Then enter the cloned directory:
+
+```bash
+cd excel_to_json_csv
+```
 
 ---
 
 ## Step 2: Set Up a Python Virtual Environment (Recommended)
 
-It's best practice to use a virtual environment for Python projects to avoid dependency conflicts.
+### Create the virtual environment
 
 ```bash
 python -m venv .venv
-# On Windows:
-.venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
 ```
+
+### Activate the virtual environment
+
+- **On Windows:**
+  ```bash
+  .venv\Scripts\activate
+  ```
+- **On macOS/Linux:**
+  ```bash
+  source .venv/bin/activate
+  ```
 
 ---
 
@@ -30,12 +47,6 @@ You can install all required dependencies in one step using the provided require
 
 ```bash
 pip install -r requirements.txt
-```
-
-Alternatively, you can install the main dependencies directly:
-
-```bash
-pip install pandas openpyxl
 ```
 
 ---
